@@ -1,0 +1,10 @@
+firts install package json npm init -y
+intsall exprss npm install express
+install nodemon npm install nodemon --save-dev
+then make config in script in packages.json
+ "start": "node app.js",
+    "dev":"nodemon app.js"
+    gitignore files ingnore node-modules to push github
+
+    install npm install dotenv 
+    install moongosejs.using npm install moongose a framework of mongodb for faster process
