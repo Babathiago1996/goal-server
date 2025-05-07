@@ -3,11 +3,11 @@ const express= require("express")
 const mongoose = require("mongoose");
 const cors=require("cors")
 const app=express()
-const port=3001
+const port=process.env.port || 3001
 const goalRouter=require("./routes/goalRouter")
 
 // middleware are function that has access to request and response 
-app.use(express.json())  
+app.use(express.json()) ; 
 app.use(cors())  
 
 
