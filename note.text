@@ -8,3 +8,4 @@ then make config in script in packages.json
 
     install npm install dotenv 
     install moongosejs.using npm install moongose a framework of mongodb for faster process
+    install cors
