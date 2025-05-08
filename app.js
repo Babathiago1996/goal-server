@@ -8,7 +8,7 @@ const goalRouter=require("./routes/goalRouter")
 
 // middleware are function that has access to request and response 
 app.use(express.json()); 
-app.use(cors())  
+app.use(cors())  //make it possible for frontend domain to access our server
 
 
 

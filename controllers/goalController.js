@@ -7,7 +7,7 @@ const createGoal=async(request, response)=>{
       return response.status(400).json({message:"provide title and description"})
     }
     try{
-      //  create save
+      //  create //save
       const goal=await GOAL.create(request.body)
       return response.status(201).json({success:true, goal})
 
